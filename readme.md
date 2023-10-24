@@ -11,6 +11,6 @@
 
 ## TODO-23/10: 
 
-- [ ] Choose Video
-- [ ] Create RoboFlow
+- [x] Choose Video
+- [x] Create RoboFlow
 - [ ] Re-Factor Code
