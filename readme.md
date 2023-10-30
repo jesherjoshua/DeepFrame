@@ -2,6 +2,7 @@
 
 ## TODO: 
 
+- [ ] Re-Factor Code
 - [ ] Tracking
 - [ ] Size
 - [ ] Speed
@@ -13,4 +14,5 @@
 
 - [x] Choose Video
 - [x] Create RoboFlow
-- [ ] Re-Factor Code
+- [x] Combine Dataset
+
