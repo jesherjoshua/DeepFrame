@@ -14,6 +14,7 @@ Libraries Used:
 Note: Ensure the required libraries are installed using pip install [library_name].
 """
 
+import argparse
 import numpy as np
 import matplotlib.pyplot as plt
 import cartopy.crs as ccrs
@@ -76,4 +77,15 @@ def generate_heatmap(mode='intensity'):
     plt.show()
 
 # Example usage with 'intensity' mode
-generate_heatmap('intensity')
+if __name__ == "__main__":
+    # Create an ArgumentParser object
+    parser = argparse.ArgumentParser(description="Generate a heatmap plot based on geographical data.")
+
+    # Add an argument for the mode parameter
+    parser.add_argument('--mode', type=str, default='intensity', help="Mode of plotting, e.g., 'intensity'.")
+
+    # Parse the command line arguments
+    args = parser.parse_args()
+
+    # Call the generate_heatmap function with the specified mode
+    generate_heatmap(mode=args.mode)

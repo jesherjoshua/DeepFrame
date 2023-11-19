@@ -17,6 +17,7 @@ Note: Make sure to install the required libraries using pip install [library_nam
 """
 
 # Import necessary libraries
+import argparse
 import cv2
 from ultralytics import YOLO
 from ultralytics import NAS
@@ -87,9 +88,9 @@ def distance(xy, xxyy):
     """
     return spatial.distance.euclidean(xy, xxyy)
 
-def main():
+def main(video_path):
     # Open video capture object
-    cap = cv2.VideoCapture("./data/vid_long.mp4")
+    cap = cv2.VideoCapture(video_path)
     
     # Get video properties
     input_fps = cap.get(cv2.CAP_PROP_FPS)
@@ -151,7 +152,7 @@ def main():
         # Generate fake location every 100 frames
         if count > 100:
             print(f'divider: {divider}')
-            rg.gen_fake_loc(intensity // divider, 'intensity')
+            rg.generate_synthetic_location(intensity // divider, 'intensity')
             count = 0
             intensity = 0
             divider = 1
@@ -166,4 +167,14 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    # Create an ArgumentParser object
+    parser = argparse.ArgumentParser(description="Object tracking using YOLOv8 on video frames.")
+
+    # Add an argument for the video_path parameter
+    parser.add_argument('--video_path', type=str, required=True, help="Path to the input video.")
+
+    # Parse the command line arguments
+    args = parser.parse_args()
+
+    # Call the main function with the specified video_path
+    main(video_path=args.video_path)
