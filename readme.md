@@ -17,7 +17,7 @@ DeepFrame introduces an innovative scientific framework for comprehensive underw
 - logs/
 - models/
 - plots/
-- results/
+- supplementary_results/
 - scripts/
 - README.md
 - requirements.txt
