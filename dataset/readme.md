@@ -8,7 +8,7 @@ Welcome to the DeepFrame dataset! This directory contains a rich collection of i
 
 Explore the dataset on Kaggle by following the link below:
 
-[TrashcanExtended on Kaggle](https://www.kaggle.com/anonymous/deepframe-dataset)
+[TrashcanExtended on Kaggle](https://www.kaggle.com/datasets/mldlusinkaggle/trashcan-extended-dataset/data)
 
 Kindly note that the dataset has been uploaded anonymously to prioritize privacy and confidentiality.
 
