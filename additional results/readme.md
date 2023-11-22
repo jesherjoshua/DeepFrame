@@ -17,8 +17,7 @@ The directory includes additional graphs representing various metrics and perfor
 ## Directory Structure
 
 ```plaintext
-- results/
-  - additional/
+  - additional results/
     - Trashcan1.0/
       - [Graphs and Results]
     - TrashcanExtended/
