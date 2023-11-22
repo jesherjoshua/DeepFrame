@@ -2,7 +2,7 @@
 
 ## Overview
 
-This directory contains additional experiment results for the DeepTrash framework, focusing on datasets including Trashcan1.0, TrashcanExtended, and TrashcanExtended-4class. These results serve as supplementary proof for our experiments, expanding on the limitations of the paper due to space constraints.
+This directory contains additional experiment results for the DeepFrame framework, focusing on datasets including Trashcan1.0, TrashcanExtended, and TrashcanExtended-4class. These results serve as supplementary proof for our experiments, expanding on the limitations of the paper due to space constraints.
 
 ### Experiment Datasets
 
