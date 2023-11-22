@@ -55,5 +55,3 @@ The dataset augmentation includes blur, bounding box-level exposure augmentation
 ## License
 
 [License Name] - see [LICENSE.md](LICENSE.md) for details.
-
----
