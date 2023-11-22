@@ -13,7 +13,7 @@ DeepFrame introduces an innovative scientific framework for comprehensive underw
 ## Directory Structure
 
 ```
-- data/
+- dataset/
 - logs/
 - models/
 - plots/
