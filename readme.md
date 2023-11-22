@@ -33,17 +33,20 @@ DeepFrame introduces an innovative scientific framework for comprehensive underw
 
 ## Robust Augmentation
 
-<img width="738" alt="Screenshot 2023-11-17 at 11 38 23 AM" src="https://github.com/jesherjoshua/CVPR2024/assets/87414375/144d562f-94f1-4b2f-a250-b9059b20efbf">
+The dataset augmentation includes blur, bounding box-level exposure augmentation, and hue variation, tailored for underwater images.
+
+![Augmentation Example](https://github.com/jesherjoshua/CVPR2024/assets/87414375/144d562f-94f1-4b2f-a250-b9059b20efbf)
 
 ## Geo-Spatial Mapping
 
 | Intensity Plot | Count Plot |
 |:--------------:|:----------:|
 | ![Intensity Plot](https://github.com/jesherjoshua/CVPR2024/assets/87414375/468d5461-6d5f-46ce-82e0-19928c51629e) | ![Count Plot](https://github.com/jesherjoshua/CVPR2024/assets/87414375/d20b1356-30d3-475d-87fa-0ee03e01f495) |
+|Plot obtained from TADD | Plot obtained from MOT |
 
 ## Benchmark Detections
 
-![media_images_val_batch2_labels_100_b3619a32c090d4e](https://github.com/jesherjoshua/CVPR2024/assets/87414375/c0d7b01d-d9ca-4204-9c3b-7fe4e3827f6b)
+![Benchmark Detections](https://github.com/jesherjoshua/CVPR2024/assets/87414375/c0d7b01d-d9ca-4204-9c3b-7fe4e3827f6b)
 
 ## How to Cite
 
