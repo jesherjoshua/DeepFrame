@@ -8,3 +8,4 @@ supervision
 scipy
 faker
 cartopy
+xlwt
