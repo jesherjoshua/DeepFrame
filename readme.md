@@ -29,7 +29,24 @@ DeepFrame introduces an innovative scientific framework for comprehensive underw
    ```
    pip install -r requirements.txt
    ```
-2. Explore `scripts/` for reproducibility and testing.
+2. Explore `dehaze/` for image pre-processing.
+3. Explore `scripts/` for reproducibility and testing.
+
+   
+## Dehazing & Pre-Processing
+To increase the accuracy of debris detection under turbid conditions, The input image frames are pre-processed using image enhancement techniques.
+
+To Reuse, cd `dehaze/` & Run the script:
+   ```
+   python main.py
+   ```
+This Python script is designed for image enhancement using various techniques such as RGB equalization, histogram stretching, and HSV stretching. The script takes the input images from `dehaze/Input_Images` folder, performs these enhancement processes, and saves the results to the `dehaze/Results` folder.
+
+Sample results:
+| Original Image | Pre-Processed Image |
+|:--------------:|:----------:|
+| ![Original Image](https://github.com/jesherjoshua/CVPR2024/blob/master/dehaze/Input_Images/set_f122.jpg?raw=true) | ![Pre-Processed Image](https://github.com/jesherjoshua/CVPR2024/blob/master/dehaze/Results/set_f122_UCM.jpg?raw=true) |
+
 
 ## Robust Augmentation
 
