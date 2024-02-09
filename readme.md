@@ -65,9 +65,6 @@ The dataset augmentation includes blur, bounding box-level exposure augmentation
 
 ![Benchmark Detections](https://github.com/jesherjoshua/CVPR2024/assets/87414375/c0d7b01d-d9ca-4204-9c3b-7fe4e3827f6b)
 
-## How to Cite
-
-[Author Name]. (2024). DeepFrame: A Scientific Framework for Advancing Ocean Cleanup through Underwater Debris Detection, Categorization, Tracking, and Geospatial Mapping. CVPR 2024.
 
 ## License
 
